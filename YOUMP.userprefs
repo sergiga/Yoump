@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Frog_jump.js">
+    <Files>
+      <File FileName="Assets\Scripts\Toca.js" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\Frog_jump.js" Line="164" Column="1" />
+      <File FileName="Assets\Scripts\OnGroundCheck.js" Line="45" Column="43" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

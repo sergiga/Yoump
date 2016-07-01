@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Frog_jump.js">
+    <Files>
+      <File FileName="Assets\Scripts\Coco_sigue.js" Line="45" Column="27" />
+      <File FileName="Assets\_GUI\GUI_muere.js" Line="10" Column="25" />
+      <File FileName="Assets\Scripts\Frog_jump.js" Line="117" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

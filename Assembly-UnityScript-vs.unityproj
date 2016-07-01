@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{E6A7CA32-0DB7-E390-89E1-D0ADB05F1665}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_2;UNITY_4_5;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Menu Scripts\ColocacionPrimero.js" />
+     <Compile Include="Assets\Menu Scripts\GenerarInicio.js" />
+     <Compile Include="Assets\Menu Scripts\NoSeDestruye.js" />
+     <Compile Include="Assets\Menu Scripts\Salto.js" />
+     <Compile Include="Assets\Scripts\Bala.js" />
+     <Compile Include="Assets\Scripts\Camera_follow.js" />
+     <Compile Include="Assets\Scripts\Cargar_salto.js" />
+     <Compile Include="Assets\Scripts\Casi_llegas.js" />
+     <Compile Include="Assets\Scripts\EscogeBuff.js" />
+     <Compile Include="Assets\Scripts\Frog_jump.js" />
+     <Compile Include="Assets\Scripts\GeneraFuego.js" />
+     <Compile Include="Assets\Scripts\Marcador.js" />
+     <Compile Include="Assets\Scripts\Mov_coco.js" />
+     <Compile Include="Assets\Scripts\Nenufar_generator.js" />
+     <Compile Include="Assets\Scripts\OnGroundCheck.js" />
+     <Compile Include="Assets\Scripts\Piedras.js" />
+     <Compile Include="Assets\Scripts\Plataforma.js" />
+     <Compile Include="Assets\Scripts\Pop_nenufar.js" />
+     <Compile Include="Assets\Scripts\Rio.js" />
+     <Compile Include="Assets\Scripts\RioGenerator.js" />
+     <Compile Include="Assets\Scripts\Toca.js" />
+     <Compile Include="Assets\Scripts\TortugaMov.js" />
+     <Compile Include="Assets\_GUI\Estadisticas.js" />
+     <Compile Include="Assets\_GUI\GUItop.js" />
+     <Compile Include="Assets\_GUI\JugarPantalla.js" />
+     <Compile Include="Assets\_GUI\NuevoMenuPrincipal.js" />
+     <Compile Include="Assets\_GUI\Opciones.js" />
+     <Compile Include="Assets\_GUI\Quit.js" />
+     <Compile Include="Assets\_GUI\TransicionJuegoMenu.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
